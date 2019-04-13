@@ -1,6 +1,6 @@
 {
-  "name": "material-dashboard-react",
-  "homepage": "https://github.com/creativetimofficial/material-dashboard-react",
+  "name": "openshift-dashboard-react",
+  "homepage": "https://github.com/DipeshSangani/openshift-board.git",
   "authors": [
     "creative-tim"
   ],
@@ -15,7 +15,7 @@
     "google",
     "twitter"
   ],
-  "license": "Creative TIM License",
+  "license": "",
   "ignore": [
     "**/.*",
     "node_modules",
