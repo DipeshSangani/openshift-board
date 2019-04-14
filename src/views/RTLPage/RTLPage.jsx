@@ -305,7 +305,7 @@ class RTLPage extends React.Component {
                     واجهة المستخدم المادية
                   </a>{" "}
                   ونصب من قبل{" "}
-                  <a target="_blank" href="https://www.creative-tim.com/">
+                  <a target="_blank" href="https://www.google.com/">
                     الإبداعية تيم
                   </a>
                   . يرجى التحقق من{" "}

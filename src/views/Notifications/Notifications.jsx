@@ -87,8 +87,8 @@ class Notifications extends React.Component {
               Material UI
             </a>{" "}
             and styled by{" "}
-            <a target="_blank" href="https://www.creative-tim.com/">
-              Creative Tim
+            <a target="_blank" href="https://www.google.com/">
+              OC DASHBOARD
             </a>
             . Please checkout the{" "}
             <a href="#pablo" target="_blank">
@@ -264,7 +264,7 @@ class Notifications extends React.Component {
                     place="bc"
                     color="info"
                     icon={AddAlert}
-                    message="Welcome to MATERIAL DASHBOARD React - a beautiful freebie for every web developer."
+                    message="Welcome to OC DASHBOARD React"
                     open={this.state.bc}
                     closeNotification={() => this.setState({ bc: false })}
                     close
@@ -282,7 +282,7 @@ class Notifications extends React.Component {
                     place="br"
                     color="info"
                     icon={AddAlert}
-                    message="Welcome to MATERIAL DASHBOARD React - a beautiful freebie for every web developer."
+                    message="Welcome to OC DASHBOARD React"
                     open={this.state.br}
                     closeNotification={() => this.setState({ br: false })}
                     close

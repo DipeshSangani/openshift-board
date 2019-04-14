@@ -28,11 +28,12 @@ const Sidebar = ({ ...props }) => {
         var activePro = " ";
         var listItemClasses;
         if (prop.path === "/upgrade-to-pro") {
-          activePro = classes.activePro + " ";
-          listItemClasses = classNames({
-            [" " + classes[color]]: true
-          });
-        } else {
+          // activePro = classes.activePro + " ";
+          // listItemClasses = classNames({
+          //   [" " + classes[color]]: false
+          // });
+        }
+         else {
           listItemClasses = classNames({
             [" " + classes[color]]: activeRoute(prop.layout + prop.path)
           });
@@ -81,7 +82,7 @@ const Sidebar = ({ ...props }) => {
   var brand = (
     <div className={classes.logo}>
       <a
-        href="https://www.creative-tim.com"
+        href="https://www.google.com"
         className={classNames(classes.logoLink, {
           [classes.logoLinkRTL]: props.rtlActive
         })}

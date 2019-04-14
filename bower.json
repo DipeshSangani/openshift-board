@@ -2,7 +2,7 @@
   "name": "openshift-dashboard-react",
   "homepage": "https://github.com/DipeshSangani/openshift-board.git",
   "authors": [
-    "creative-tim"
+    "OPENSHIFT-DASHBOARD"
   ],
   "description": "A Badass Material-UI Kit based on Material Design",
   "main": "public/index.html",

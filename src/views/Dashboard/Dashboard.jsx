@@ -29,8 +29,9 @@ import CardHeader from "components/Card/CardHeader.jsx";
 import CardIcon from "components/Card/CardIcon.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
-
 import { bugs, website, server } from "variables/general.jsx";
+// import { Dropdown } from 'react-native-material-dropdown';
+
 
 import {
   dailySalesChart,
@@ -62,7 +63,7 @@ class Dashboard extends React.Component {
                 <CardIcon color="warning">
                   <Icon>content_copy</Icon>
                 </CardIcon>
-                <p className={classes.cardCategory}>Used Space</p>
+                <p className={classes.cardCategory}>Project Name</p>
                 <h3 className={classes.cardTitle}>
                   49/50 <small>GB</small>
                 </h3>
@@ -85,7 +86,7 @@ class Dashboard extends React.Component {
                 <CardIcon color="success">
                   <Store />
                 </CardIcon>
-                <p className={classes.cardCategory}>Revenue</p>
+                <p className={classes.cardCategory}>Routes</p>
                 <h3 className={classes.cardTitle}>$34,245</h3>
               </CardHeader>
               <CardFooter stats>
@@ -102,7 +103,7 @@ class Dashboard extends React.Component {
                 <CardIcon color="danger">
                   <Icon>info_outline</Icon>
                 </CardIcon>
-                <p className={classes.cardCategory}>Fixed Issues</p>
+                <p className={classes.cardCategory}>Serviecs</p>
                 <h3 className={classes.cardTitle}>75</h3>
               </CardHeader>
               <CardFooter stats>
@@ -119,7 +120,7 @@ class Dashboard extends React.Component {
                 <CardIcon color="info">
                   <Accessibility />
                 </CardIcon>
-                <p className={classes.cardCategory}>Followers</p>
+                <p className={classes.cardCategory}>Pods</p>
                 <h3 className={classes.cardTitle}>+245</h3>
               </CardHeader>
               <CardFooter stats>
@@ -144,7 +145,7 @@ class Dashboard extends React.Component {
                 />
               </CardHeader>
               <CardBody>
-                <h4 className={classes.cardTitle}>Daily Sales</h4>
+                <h4 className={classes.cardTitle}>Containers</h4>
                 <p className={classes.cardCategory}>
                   <span className={classes.successText}>
                     <ArrowUpward className={classes.upArrowCardCategory} /> 55%

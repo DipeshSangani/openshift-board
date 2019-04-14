@@ -146,7 +146,7 @@ class FixedPlugin extends Component {
               <div className="button-container">
                 <Button
                   color="success"
-                  href="https://www.creative-tim.com/product/material-dashboard-react"
+                  href=""
                   target="_blank"
                   fullWidth
                 >
@@ -158,7 +158,7 @@ class FixedPlugin extends Component {
               <div className="button-container">
                 <Button
                   color="warning"
-                  href="https://www.creative-tim.com/product/material-dashboard-pro-react"
+                  href=""
                   target="_blank"
                   fullWidth
                 >
@@ -170,7 +170,7 @@ class FixedPlugin extends Component {
               <Button
                 color="info"
                 fullWidth
-                href="https://demos.creative-tim.com/material-dashboard-react/#/documentation/tutorial"
+                href="http://google.com"
                 target="_blank"
               >
                 Documentation
