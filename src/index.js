@@ -9,6 +9,11 @@ import RTL from "layouts/RTL.jsx";
 
 import "assets/css/material-dashboard-react.css?v=1.6.0";
 
+
+process.env.CLUSTER_URL = "https://console.starter-us-east-1.openshift.com";
+process.env.ADMIN_USERNAME = "san062012";
+process.env.ADMIN_PASSWORD = "Qwerty123";
+
 const hist = createBrowserHistory();
 
 ReactDOM.render(

@@ -20,6 +20,7 @@ import dashboardStyle from "assets/jss/material-dashboard-react/layouts/dashboar
 import image from "assets/img/sidebar-2.jpg";
 import logo from "assets/img/reactlogo.png";
 
+
 const switchRoutes = (
   <Switch>
     {routes.map((prop, key) => {

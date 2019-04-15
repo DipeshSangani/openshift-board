@@ -42,7 +42,7 @@ import {
 
 import rtlStyle from "assets/jss/material-dashboard-react/views/rtlStyle.jsx";
 
-import avatar from "assets/img/faces/marc.jpg";
+// import avatar from "assets/img/faces/marc.jpg";
 
 let bugs = [
   "طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن؟",
@@ -345,7 +345,7 @@ class RTLPage extends React.Component {
             <Card profile>
               <CardAvatar profile>
                 <a href="#pablo" onClick={e => e.preventDefault()}>
-                  <img src={avatar} alt="..." />
+                  {/* <img src={avatar} alt="..." /> */}
                 </a>
               </CardAvatar>
               <CardBody profile>

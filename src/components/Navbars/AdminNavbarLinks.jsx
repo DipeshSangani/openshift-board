@@ -19,6 +19,29 @@ import CustomInput from "components/CustomInput/CustomInput.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-dashboard-react/components/headerLinksStyle.jsx";
+import { List, ListItem } from "@material-ui/core";
+
+// const openshiftRestClient = require('openshift-rest-client').OpenshiftClient;
+
+// (async function () {
+//   const settings = {
+//   };
+
+//   settings.config = {
+//     url: process.env.CLUSTER_URL,
+//     auth: {
+//       bearer: 'Rdhcz56ksss7D3x1dPqZuYiotP5LZZZGcRXhy2JElCs'
+//     },
+    
+//   };
+
+//   const client = await openshiftRestClient(settings);
+
+//   const projects = await client.oapi.v1.projects.get();
+//   console.log(projects);
+// })();
+
+
 
 class HeaderLinks extends React.Component {
   state = {
@@ -61,14 +84,16 @@ class HeaderLinks extends React.Component {
           color={window.innerWidth > 959 ? "transparent" : "white"}
           justIcon={window.innerWidth > 959}
           simple={!(window.innerWidth > 959)}
-          aria-label="Dashboard"
+          aria-label="OC Project List"
           className={classes.buttonLink}
         >
           <Dashboard className={classes.icons} />
           <Hidden mdUp implementation="css">
             <p className={classes.linkText}>Dashboard</p>
           </Hidden>
+          
         </Button>
+        
         <div className={classes.manager}>
           <Button
             buttonRef={node => {
